@@ -1,17 +1,15 @@
-package by.jonline.module01.tasks26_30;
-
 import java.util.Scanner;
 
-// Для данной области составить линейную программу, которая печатает true, 
-// если точка с координатами (x, y) принадлежит закрашенной области и 
-// false в противном случае
+// Г„Г«Гї Г¤Г Г­Г­Г®Г© Г®ГЎГ«Г Г±ГІГЁ Г±Г®Г±ГІГ ГўГЁГІГј Г«ГЁГ­ГҐГ©Г­ГіГѕ ГЇГ°Г®ГЈГ°Г Г¬Г¬Гі, ГЄГ®ГІГ®Г°Г Гї ГЇГҐГ·Г ГІГ ГҐГІ true, 
+// ГҐГ±Г«ГЁ ГІГ®Г·ГЄГ  Г± ГЄГ®Г®Г°Г¤ГЁГ­Г ГІГ Г¬ГЁ (x, y) ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦ГЁГІ Г§Г ГЄГ°Г ГёГҐГ­Г­Г®Г© Г®ГЎГ«Г Г±ГІГЁ ГЁ 
+// false Гў ГЇГ°Г®ГІГЁГўГ­Г®Г¬ Г±Г«ГіГ·Г ГҐ
 
 public class Linear6 {
 
 	public static void main(String[] args) {
 
-		int x = enterN("Введите x >> ");
-		int y = enterN("Введите y >> ");
+		int x = enterN("Г‚ГўГҐГ¤ГЁГІГҐ x >> ");
+		int y = enterN("Г‚ГўГҐГ¤ГЁГІГҐ y >> ");
 
 		checkB(x, y);
 		checkC(x, y);
@@ -28,14 +26,14 @@ public class Linear6 {
 		System.out.println(s);
 		while (!sc.hasNextInt()) {
 			sc.next();
-			System.out.println("Введите еще раз >> ");
+			System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ ГҐГ№ГҐ Г°Г Г§ >> ");
 		}
 		t = sc.nextInt();
 
 		return t;
 	}
 
-	// метод checkB проверяет принадлежит ли точка области b) в задаче
+	// Г¬ГҐГІГ®Г¤ checkB ГЇГ°Г®ГўГҐГ°ГїГҐГІ ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦ГЁГІ Г«ГЁ ГІГ®Г·ГЄГ  Г®ГЎГ«Г Г±ГІГЁ b) Гў Г§Г Г¤Г Г·ГҐ
 
 	public static void checkB(int a, int b) {
 
@@ -50,7 +48,7 @@ public class Linear6 {
 		System.out.println(check);
 	}
 
-	// метод checkC проверяет принадлежит ли точка области b) в задаче
+	// Г¬ГҐГІГ®Г¤ checkC ГЇГ°Г®ГўГҐГ°ГїГҐГІ ГЇГ°ГЁГ­Г Г¤Г«ГҐГ¦ГЁГІ Г«ГЁ ГІГ®Г·ГЄГ  Г®ГЎГ«Г Г±ГІГЁ b) Гў Г§Г Г¤Г Г·ГҐ
 
 	public static void checkC(int a, int b) {
 
