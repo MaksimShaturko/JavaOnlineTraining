@@ -1,6 +1,6 @@
 package by.jonline.module01.tasks;
 
-// Âû÷èñëèòü çíà÷åíèÿ ôóíêöèè íà îòðåçêå [a,b] ñ øàãîì h
+// Ð’Ñ‹Ñ‡Ð¸ÑÐ»Ð¸Ñ‚ÑŒ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ñ Ñ„ÑƒÐ½ÐºÑ†Ð¸Ð¸ Ð½Ð° Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐµ [a,b] Ñ ÑˆÐ°Ð³Ð¾Ð¼ h
 //		/
 //		| x, x > 2
 // y = 	|
@@ -21,15 +21,15 @@ public class Cycle2 {
 		double b;
 		double h;
 
-		a = enterN("Ââåäèòå a >> ");
+		a = enterN("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ a >> ");
 		// System.out.println(a);
-		b = enterN("Ââåäèòå b >> ");
+		b = enterN("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ b >> ");
 		// System.out.println(b);
-		h = enterN("Ââåäèòå øàã >> ");
+		h = enterN("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑˆÐ°Ð³ >> ");
 
 		for (x = a; x <= b; x = x + h) {
 			y = func(x);
-			System.out.println("Ïðè õ = " + x + ", y = " + y);
+			System.out.println("ÐŸÑ€Ð¸ Ñ… = " + x + ", y = " + y);
 		}
 
 	}
@@ -44,7 +44,7 @@ public class Cycle2 {
 		System.out.println(s);
 		while (!sc.hasNextDouble()) {
 			sc.next();
-			System.out.println("Ââåäèòå åùå ðàç >> ");
+			System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐµÑ‰Ðµ Ñ€Ð°Ð· >> ");
 		}
 		t = sc.nextDouble();
 
