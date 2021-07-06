@@ -1,10 +1,10 @@
 package by.jonline.module01.tasks;
 
-// Вычислить значение функции
+// Р’С‹С‡РёСЃР»РёС‚СЊ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё
 //			/
-//			| -x^2 + x - 9, если x >= 8;
+//			| x^2 - 3 * x - 9, РµСЃР»Рё x <= 3;
 // F(x) = 	|
-//			| 1 / (x^4 - 6), если x < 8;
+//			| 1 / (x^3 + 6), РµСЃР»Рё x > 3;
 //			\
 
 import java.util.Scanner;
@@ -20,23 +20,23 @@ public class Branch5 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("Введите несколько значений x >> ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РЅРµСЃРєРѕР»СЊРєРѕ Р·РЅР°С‡РµРЅРёР№ x >> ");
 
 		for (int i = 0; i < 3; i++) {
 
 			if (i == 0) {
-				System.out.println("Первое значение x >> ");
+				System.out.println("РџРµСЂРІРѕРµ Р·РЅР°С‡РµРЅРёРµ x >> ");
 			}
 			if (i == 1) {
-				System.out.println("Второе значение x >> ");
+				System.out.println("Р’С‚РѕСЂРѕРµ Р·РЅР°С‡РµРЅРёРµ x >> ");
 			}
 			if (i == 2) {
-				System.out.println("Третье значение x >> ");
+				System.out.println("РўСЂРµС‚СЊРµ Р·РЅР°С‡РµРЅРёРµ x >> ");
 			}
 
 			while (!sc.hasNextDouble()) {
 				sc.nextLine();
-				System.out.println("Вы ввели неверное значение. Введите еще раз ВЕЩЕСТВЕННОЕ число >> ");
+				System.out.println("Р’С‹ РІРІРµР»Рё РЅРµРІРµСЂРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ. Р’РІРµРґРёС‚Рµ РµС‰Рµ СЂР°Р· Р’Р•Р©Р•РЎРўР’Р•РќРќРћР• С‡РёСЃР»Рѕ >> ");
 			}
 			x = sc.nextDouble();
 			sc.nextLine();
@@ -47,11 +47,11 @@ public class Branch5 {
 				fx = 1 / (Math.pow(x, 3) + 6);
 			}
 
-			System.out.println("Значение функции при х = " + x + " равно = " + fx);
+			System.out.println("Р—РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё РїСЂРё С… = " + x + " СЂР°РІРЅРѕ = " + fx);
 
 		}
 
-		System.out.println("Программа завершена");
+		System.out.println("РџСЂРѕРіСЂР°РјРјР° Р·Р°РІРµСЂС€РµРЅР°");
 
 	}
 
