@@ -2,8 +2,8 @@ package by.jonline.module01.tasks;
 
 import java.util.Scanner;
 
-// Даны два числа. Определить цифры, входящие в запись как первого, так и второго
-// числа
+// Р”Р°РЅС‹ РґРІР° С‡РёСЃР»Р°. РћРїСЂРµРґРµР»РёС‚СЊ С†РёС„СЂС‹, РІС…РѕРґСЏС‰РёРµ РІ Р·Р°РїРёСЃСЊ РєР°Рє РїРµСЂРІРѕРіРѕ, С‚Р°Рє Рё РІС‚РѕСЂРѕРіРѕ
+// С‡РёСЃР»Р°
 
 public class Cycle8 {
 
@@ -12,8 +12,8 @@ public class Cycle8 {
 		int m;
 		int n;
 
-		m = enterN("Введите m >> ");
-		n = enterN("Введите n >> ");
+		m = enterN("Р’РІРµРґРёС‚Рµ m >> ");
+		n = enterN("Р’РІРµРґРёС‚Рµ n >> ");
 
 		digits(m, n);
 
@@ -29,7 +29,7 @@ public class Cycle8 {
 		System.out.println(s);
 		while (!sc.hasNextInt()) {
 			sc.next();
-			System.out.println("Введите еще раз >> ");
+			System.out.println("Р’РІРµРґРёС‚Рµ РµС‰Рµ СЂР°Р· >> ");
 		}
 		t = sc.nextInt();
 
@@ -56,7 +56,7 @@ public class Cycle8 {
 			y /= 10;
 		}
 
-		System.out.println("Общие цифры: ");
+		System.out.println("РћР±С‰РёРµ С†РёС„СЂС‹: ");
 
 		for (int i = 0; i < 10; i++) {
 			if (ostM[i] == 2) {
