@@ -1,5 +1,3 @@
-package by.jonline.module01.tasks6_10;
-
 // (b + sqrt(b^2 + 4ac))/2a - a^3c + b^-2
 
 public class Linear2 {
@@ -10,11 +8,11 @@ public class Linear2 {
 		double a;
 		double c;
 
-		double sl1; // первое слагаемое
-		double sl2; // второе слагаемое
-		double sl3; // третье слагаемое
+		double sl1; // ДЏДєД‘ГўГ®Дє Е„Г«Е•ДѓЕ•ДєД›Г®Дє
+		double sl2; // ГўЕ€Г®Д‘Г®Дє Е„Г«Е•ДѓЕ•ДєД›Г®Дє
+		double sl3; // Е€Д‘ДєЕ€ГјДє Е„Г«Е•ДѓЕ•ДєД›Г®Дє
 
-		double znach; // результат выражения
+		double znach; // Д‘ДєГ§ГіГ«ГјЕ€Е•Е€ ГўЕ±Д‘Е•Д‡ДєГ­ДЌЛ™
 
 		a = 22.3;
 		b = 10.4;
