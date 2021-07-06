@@ -2,8 +2,8 @@ package by.jonline.module01.tasks;
 
 import java.util.Scanner;
 
-// Ïîëüçîâàòåëü ââîäèò ëþáîå öåëîå ïîëîæèòåëüíîå ÷èñëî. Ïðîãðàììà ñ÷èòàåò 
-// ñóììó ÷èñåë îò 1 äî ââåäåííîãî ÷èñëà
+// ÐŸÐ¾Ð»ÑŒÐ·Ð¾Ð²Ð°Ñ‚ÐµÐ»ÑŒ Ð²Ð²Ð¾Ð´Ð¸Ñ‚ Ð»ÑŽÐ±Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾. ÐŸÑ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ð° ÑÑ‡Ð¸Ñ‚Ð°ÐµÑ‚ 
+// ÑÑƒÐ¼Ð¼Ñƒ Ñ‡Ð¸ÑÐµÐ» Ð¾Ñ‚ 1 Ð´Ð¾ Ð²Ð²ÐµÐ´ÐµÐ½Ð½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°
 
 public class Cycle1 {
 
@@ -17,7 +17,7 @@ public class Cycle1 {
 
 		sum = sumCalc(a);
 
-		System.out.println("Ñóììà = " + sum);
+		System.out.println("Ð¡ÑƒÐ¼Ð¼Ð° = " + sum);
 	}
 
 	public static int enterNumber() {
@@ -27,10 +27,10 @@ public class Cycle1 {
 
 		int x;
 
-		System.out.println("Ââåäèòå öåëîå ïîëîæèòåëüíîå ÷èñëî >> ");
+		System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ð¿Ð¾Ð»Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ >> ");
 		while (!sc.hasNextInt()) {
 			sc.next();
-			System.out.println("Ââåäèòå åùå ðàç >> ");
+			System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐµÑ‰Ðµ Ñ€Ð°Ð· >> ");
 		}
 		x = sc.nextInt();
 
