@@ -2,7 +2,7 @@ package by.jonline.module01.tasks;
 
 import java.util.Scanner;
 
-// Íàéòè ñóììó êâàäðàòîâ ïåðâûõ ñòà ÷èñåë
+// ÐÐ°Ð¹Ñ‚Ð¸ ÑÑƒÐ¼Ð¼Ñƒ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð¾Ð² Ð¿ÐµÑ€Ð²Ñ‹Ñ… ÑÑ‚Ð° Ñ‡Ð¸ÑÐµÐ»
 
 public class Cycle3 {
 
@@ -10,7 +10,7 @@ public class Cycle3 {
 
 		int sum = 0;
 
-		int x = enterN("Ââåäèòå ïåðâîå ÷èñëî >> ");
+		int x = enterN("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ >> ");
 
 		for (int i = x; i <= (x + 100); i++) {
 			sum = sum + (int) Math.pow(i, 2);
@@ -29,7 +29,7 @@ public class Cycle3 {
 		System.out.println(s);
 		while (!sc.hasNextInt()) {
 			sc.next();
-			System.out.println("Ââåäèòå åùå ðàç >> ");
+			System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐµÑ‰Ðµ Ñ€Ð°Ð· >> ");
 		}
 		t = sc.nextInt();
 
