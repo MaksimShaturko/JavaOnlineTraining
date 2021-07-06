@@ -1,6 +1,6 @@
 package by.jonline.module01.tasks;
 
-// Найти max {min(a,b), min(c,d)}
+// РќР°Р№С‚Рё max {min(a,b), min(c,d)}
 
 public class Branch2 {
 
@@ -21,7 +21,7 @@ public class Branch2 {
 
 		System.out.println(max);
 
-		// Если задача в теме ветвления, то вероятно есть смысл сделать через ветвления
+		// Р•СЃР»Рё Р·Р°РґР°С‡Р° РІ С‚РµРјРµ РІРµС‚РІР»РµРЅРёСЏ, С‚Рѕ РІРµСЂРѕСЏС‚РЅРѕ РµСЃС‚СЊ СЃРјС‹СЃР» СЃРґРµР»Р°С‚СЊ С‡РµСЂРµР· РІРµС‚РІР»РµРЅРёСЏ
 
 		double min1;
 		double min2;
