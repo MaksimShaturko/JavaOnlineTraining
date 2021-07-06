@@ -1,7 +1,7 @@
 package by.jonline.module01.tasks;
 
-// Заданы размеры A и B прямоугольного отверстия и размеры x, y, z кирпича.
-// Пройдет ли кирпич в отверстие
+// Р—Р°РґР°РЅС‹ СЂР°Р·РјРµСЂС‹ A Рё B РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ РѕС‚РІРµСЂСЃС‚РёСЏ Рё СЂР°Р·РјРµСЂС‹ x, y, z РєРёСЂРїРёС‡Р°.
+// РџСЂРѕР№РґРµС‚ Р»Рё РєРёСЂРїРёС‡ РІ РѕС‚РІРµСЂСЃС‚РёРµ
 
 import java.util.Scanner;
 
@@ -25,51 +25,51 @@ public class Branch4 {
 
 		boolean t = false;
 
-		// БЛОК ВВОДА ДАННЫХ
+		// Р‘Р›РћРљ Р’Р’РћР”Рђ Р”РђРќРќР«РҐ
 
-		System.out.println("Введите размеры прямоугольного отверстия");
+		System.out.println("Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂС‹ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРѕРіРѕ РѕС‚РІРµСЂСЃС‚РёСЏ");
 
-		System.out.println("Введите A >> ");
+		System.out.println("Р’РІРµРґРёС‚Рµ A >> ");
 		while (!sc.hasNextDouble()) {
 			sc.nextLine();
-			System.out.println("Введите вещественное число! Еще раз >> ");
+			System.out.println("Р’РІРµРґРёС‚Рµ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ! Р•С‰Рµ СЂР°Р· >> ");
 		}
 		a = sc.nextDouble();
 		sc.nextLine();
 
-		System.out.println("Введите B >> ");
+		System.out.println("Р’РІРµРґРёС‚Рµ B >> ");
 		while (!sc.hasNextDouble()) {
 			sc.nextLine();
-			System.out.println("Введите вещественное число! Еще раз >> ");
+			System.out.println("Р’РІРµРґРёС‚Рµ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ! Р•С‰Рµ СЂР°Р· >> ");
 		}
 		b = sc.nextDouble();
 		sc.nextLine();
 
-		System.out.println("Введите первую сторону кирпича >> ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РїРµСЂРІСѓСЋ СЃС‚РѕСЂРѕРЅСѓ РєРёСЂРїРёС‡Р° >> ");
 		while (!sc.hasNextDouble()) {
 			sc.nextLine();
-			System.out.println("Введите вещественное число! Еще раз >> ");
+			System.out.println("Р’РІРµРґРёС‚Рµ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ! Р•С‰Рµ СЂР°Р· >> ");
 		}
 		x = sc.nextDouble();
 		sc.nextLine();
 
-		System.out.println("Введите вторую сторону кирпича >> ");
+		System.out.println("Р’РІРµРґРёС‚Рµ РІС‚РѕСЂСѓСЋ СЃС‚РѕСЂРѕРЅСѓ РєРёСЂРїРёС‡Р° >> ");
 		while (!sc.hasNextDouble()) {
 			sc.nextLine();
-			System.out.println("Введите вещественное число! Еще раз >> ");
+			System.out.println("Р’РІРµРґРёС‚Рµ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ! Р•С‰Рµ СЂР°Р· >> ");
 		}
 		y = sc.nextDouble();
 		sc.nextLine();
 
-		System.out.println("Введите третью сторону кирпича >> ");
+		System.out.println("Р’РІРµРґРёС‚Рµ С‚СЂРµС‚СЊСЋ СЃС‚РѕСЂРѕРЅСѓ РєРёСЂРїРёС‡Р° >> ");
 		while (!sc.hasNextDouble()) {
 			sc.nextLine();
-			System.out.println("Введите вещественное число! Еще раз >> ");
+			System.out.println("Р’РІРµРґРёС‚Рµ РІРµС‰РµСЃС‚РІРµРЅРЅРѕРµ С‡РёСЃР»Рѕ! Р•С‰Рµ СЂР°Р· >> ");
 		}
 		z = sc.nextDouble();
 		sc.nextLine();
 
-		// КОНЕЦ БЛОКА ВВОДА ДАННЫХ
+		// РљРћРќР•Р¦ Р‘Р›РћРљРђ Р’Р’РћР”Рђ Р”РђРќРќР«РҐ
 
 		// System.out.println(a);
 		// System.out.println(b);
@@ -112,9 +112,9 @@ public class Branch4 {
 		}
 
 		if (t) {
-			System.out.println("Кирпич проходит в отверстие");
+			System.out.println("РљРёСЂРїРёС‡ РїСЂРѕС…РѕРґРёС‚ РІ РѕС‚РІРµСЂСЃС‚РёРµ");
 		} else {
-			System.out.println("Кирпич не проходит в отверстие");
+			System.out.println("РљРёСЂРїРёС‡ РЅРµ РїСЂРѕС…РѕРґРёС‚ РІ РѕС‚РІРµСЂСЃС‚РёРµ");
 		}
 
 	}
