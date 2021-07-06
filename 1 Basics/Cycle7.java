@@ -2,9 +2,9 @@ package by.jonline.module01.tasks;
 
 import java.util.Scanner;
 
-/*Äëÿ êàæäîãî íàòóðàëüíîãî ÷èñëà â ïðîìåæóòêå îò m äî n âûâåñòè
- * âñå äåëèòåëè, êðîìå åäèíèöû è ñàìîãî ÷èñëà.
- * m è n ââîäÿòñÿ ñ êëàâèàòóðû
+/*Ð”Ð»Ñ ÐºÐ°Ð¶Ð´Ð¾Ð³Ð¾ Ð½Ð°Ñ‚ÑƒÑ€Ð°Ð»ÑŒÐ½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° Ð² Ð¿Ñ€Ð¾Ð¼ÐµÐ¶ÑƒÑ‚ÐºÐµ Ð¾Ñ‚ m Ð´Ð¾ n Ð²Ñ‹Ð²ÐµÑÑ‚Ð¸
+ * Ð²ÑÐµ Ð´ÐµÐ»Ð¸Ñ‚ÐµÐ»Ð¸, ÐºÑ€Ð¾Ð¼Ðµ ÐµÐ´Ð¸Ð½Ð¸Ñ†Ñ‹ Ð¸ ÑÐ°Ð¼Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð°.
+ * m Ð¸ n Ð²Ð²Ð¾Ð´ÑÑ‚ÑÑ Ñ ÐºÐ»Ð°Ð²Ð¸Ð°Ñ‚ÑƒÑ€Ñ‹
  */
 
 public class Cycle7 {
@@ -14,8 +14,8 @@ public class Cycle7 {
 		int m;
 		int n;
 
-		m = enterN("Ââåäèòå m >> ");
-		n = enterN("Ââåäèòå n >> ");
+		m = enterN("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ m >> ");
+		n = enterN("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ n >> ");
 
 		if (m < n) {
 			for (int i = m; i <= n; i++) {
@@ -30,7 +30,7 @@ public class Cycle7 {
 	}
 
 	public static void divisor(int x) {
-		System.out.print("Äåëèòåëü ÷èñëà " + x + ": ");
+		System.out.print("Ð”ÐµÐ»Ð¸Ñ‚ÐµÐ»ÑŒ Ñ‡Ð¸ÑÐ»Ð° " + x + ": ");
 
 		int n = 0;
 		for (int i = 2; i < x; i++) {
@@ -42,7 +42,7 @@ public class Cycle7 {
 
 		}
 		if (n == 0) {
-			System.out.print("îòñóòñòâóåò");
+			System.out.print("Ð¾Ñ‚ÑÑƒÑ‚ÑÑ‚Ð²ÑƒÐµÑ‚");
 
 		}
 		System.out.println();
@@ -59,7 +59,7 @@ public class Cycle7 {
 		System.out.println(s);
 		while (!sc.hasNextInt()) {
 			sc.next();
-			System.out.println("Ââåäèòå åùå ðàç >> ");
+			System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐµÑ‰Ðµ Ñ€Ð°Ð· >> ");
 		}
 		t = sc.nextInt();
 
