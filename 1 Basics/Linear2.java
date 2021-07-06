@@ -8,11 +8,11 @@ public class Linear2 {
 		double a;
 		double c;
 
-		double sl1; // ďĺđâîĺ ńëŕăŕĺěîĺ
-		double sl2; // âňîđîĺ ńëŕăŕĺěîĺ
-		double sl3; // ňđĺňüĺ ńëŕăŕĺěîĺ
+		double sl1; // первое слагаемое
+		double sl2; // второе слагаемое
+		double sl3; // третье слагаемое
 
-		double znach; // đĺçóëüňŕň âűđŕćĺíč˙
+		double znach; // результат выражения
 
 		a = 22.3;
 		b = 10.4;
