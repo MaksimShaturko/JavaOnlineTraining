@@ -3,7 +3,7 @@ package by.jonline.module01.tasks;
 import java.math.BigInteger;
 import java.util.Scanner;
 
-// Ïðîèçâåäåíèå êâàäðàòîâ ïåðâûõ äâóõñîò ÷èñåë
+// ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð¾Ð² Ð¿ÐµÑ€Ð²Ñ‹Ñ… Ð´Ð²ÑƒÑ…ÑÐ¾Ñ‚ Ñ‡Ð¸ÑÐµÐ»
 
 public class Cycle4 {
 
@@ -15,7 +15,7 @@ public class Cycle4 {
 		int x;
 
 		do {
-			x = enterN("Ââåäèòå ïåðâîå ÷èñëî íå ðàâíîå íóëþ>> ");
+			x = enterN("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð½Ðµ Ñ€Ð°Ð²Ð½Ð¾Ðµ Ð½ÑƒÐ»ÑŽ>> ");
 		} while (x == 0);
 
 		for (int i = x; i <= (x + 200); i++) {
@@ -37,7 +37,7 @@ public class Cycle4 {
 		System.out.println(s);
 		while (!sc.hasNextInt()) {
 			sc.next();
-			System.out.println("Ââåäèòå åùå ðàç >> ");
+			System.out.println("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐµÑ‰Ðµ Ñ€Ð°Ð· >> ");
 		}
 		t = sc.nextInt();
 
